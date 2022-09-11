@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  mysqldb:
+    image: mysql:latest
+    ports:
+      - 3307:3306
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 30s
+      retries: 10
+    restart: on-failure
+#    networks:
+#      - sb-net
+    environment:
+      - MYSQL_DATABASE=swaproj
+      - MYSQL_ROOT_PASSWORD=123456
+  app:
+    image: merajkhan/swa:firsttry
+#    build: .
+    ports:
+      - 8086:8086
+    environment:
+      - MYSQL_URL=mysqldb
+#    networks:
+#      - sb-net
+    depends_on:
+      mysqldb:
+        condition: service_healthy
+
+#networks:
+#  sb-net:
+#    name: sb-net
+#    driver: bridge
