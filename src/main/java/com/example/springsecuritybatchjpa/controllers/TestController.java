@@ -47,7 +47,7 @@ public class TestController {
   @PreAuthorize("hasRole('ADMIN')")
   public String adminAccess() throws Exception{
 
-    // Clean old data from person table -1
+    // Clean old data from person table -2
     personRepository.deleteAll();
 
     JobParameters jobParameters = new JobParametersBuilder().addLong("time", System.currentTimeMillis())
