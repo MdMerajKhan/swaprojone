@@ -81,7 +81,7 @@ Then run command docker compose up. Two separate created, one for application an
 
 ### Github Repository 
 
-    https://github.com/DevSubarna/spring-security-batch-jpa.git
+    https://github.com/MdMerajKhan/swaprojone
 
 ### Reference Documentation
 For further reference, please consider the following sections:
