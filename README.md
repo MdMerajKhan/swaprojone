@@ -102,7 +102,7 @@ Then run command docker compose up. Two separate created, one for application an
 
 ### Github Repository 
 
-    https://github.com/MdMerajKhan/swaprojone
+    https://github.com/MdMerajKhan/swaprojone/tree/master
 
 ### Reference Documentation
 For further reference, please consider the following sections:
