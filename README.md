@@ -9,6 +9,11 @@ Team members:
 
 # Getting Started
 
+### How to Test the Application
+#### We have uploaded the application image to docker hub, please use the docker-compose.yml file to deploy the images to local docker for the testing purposes.Please go to the folder path of docker-compose.yml and execute the following two commands. 
+    docker compose build
+    docker compose up
+
 ### Model
     Three models: User, Role, Person
 
