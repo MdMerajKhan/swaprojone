@@ -21,8 +21,8 @@ Team members:
 
 #### Signup 
 
-    For the client app please use any rest client(like Postman).Please add a 
-    httpHeader "Content-Type" and set "application/json" as the value.
+    For the client app please use any rest client(like Postman).Please add a httpHeader "Content-Type" 
+    and set "application/json" as the value. As role you can choose value from "admin" or "mod".
 
     Endpoint:  api/auth/signup
     Body: {
