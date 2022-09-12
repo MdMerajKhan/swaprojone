@@ -5,7 +5,7 @@ This project authenticates the user and according to the role it authorizes the 
 Team members:
 
     Mohammad Meraj Khan - 614631
-    Safiquel Islam - 
+    Md Shafiqul Islam - 614199
 
 # Getting Started
 
